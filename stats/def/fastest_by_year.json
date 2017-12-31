@@ -1,0 +1,17 @@
+{
+	"path": "stats/data/fastest_by_year/{year}.csv",
+	"partition": [
+		"year"
+	],
+	"sort": [
+		{
+			"field": "speed",
+			"direction": "desc"
+		},
+		{
+			"field": "ingest_time",
+			"direction": "desc"
+		}
+	],
+	"limit": 5
+}

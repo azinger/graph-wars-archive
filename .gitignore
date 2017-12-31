@@ -1,0 +1,5 @@
+**/venv
+**/dist
+**/dist.zip
+**/*.pyc
+etl/graph-wars-*.json
