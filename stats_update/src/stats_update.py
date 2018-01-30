@@ -138,4 +138,6 @@ def process_metadata(metadata, stats_def, stats_cache, affected_stats_keys, s3_c
 	if 0 <= insert_ix < limit:
 		print('{} will receive game key {}'.format(stats_key, metadata['game_key']))
 		stats.insert(insert_ix, metadata)
+		while len(stats) > limit:
+			stats.pop()
 		affected_stats_keys.add(stats_key)
