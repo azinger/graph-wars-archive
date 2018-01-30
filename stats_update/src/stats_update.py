@@ -1,6 +1,23 @@
+import csv
+import io
 import json
 
 import boto3
+
+
+METADATA_TYPES = {
+	'year': int,
+	'month': int,
+	'day': int,
+	'width': int,
+	'height': int,
+	'moves_per_turn': int,
+	'area': int,
+	'speed': float,
+	'squareness': float,
+	'player_count': int,
+	'winning_turn_count': int
+}
 
 
 def lambda_handler(event, context):
@@ -34,10 +51,20 @@ def read_metadata(metadata_s3_keys, s3_client):
 
 def write_stats(stats_key, stats, s3_client):
 	print('Writing stats to key {}'.format(stats_key))
+	stats_table = []
+	if stats:
+		stats_header = [col for col in stats[0].keys()]
+		stats_table.append(stats_header)
+		for metadata in stats:
+			stats_table.append([metadata[col] for col in stats_header])
+	stats_buffer = io.StringIO()
+	writer = csv.writer(stats_buffer)
+	writer.writerows(stats_table)
+	stats_content = stats_buffer.getvalue()
 	s3_client.put_object(
 		Bucket='graph-wars-archive',
 		Key=stats_key,
-		Body=json.dumps(stats).encode('UTF-8')
+		Body=stats_content.encode('UTF-8')
 	)
 
 
@@ -49,7 +76,7 @@ def read_stats(stats_key, s3_client):
 		)
 		stats_bytes = stats_object['Body'].read()
 		stats_content = stats_bytes.decode('UTF-8')
-	except ex:
+	except Exception as ex:
 		print(ex)
 		print('Will return empty list for stats.')
 		return []
@@ -61,12 +88,15 @@ def read_stats(stats_key, s3_client):
 		else:
 			stats_row = {}
 			for header, val in zip(stats_header, stats_vals):
+				if val and header in METADATA_TYPES:
+					val = METADATA_TYPES[header](val)
 				stats_row[header] = val
-			stats.append(stats_row)
+			if stats_row:
+				stats.append(stats_row)
 	return stats
 
 
-def find_index_sorted(stats_list, metadata, sort_def):
+def find_index_sorted(stats, metadata, sort_def):
 	def compare(struct1, struct2):
 		comp_list1 = []
 		comp_list2 = []
@@ -84,11 +114,12 @@ def find_index_sorted(stats_list, metadata, sort_def):
 			return 1
 		else:
 			return 0
-	ix = len(stats_list)
+	ix = len(stats)
 	while ix > 0:
-		if stats_list[ix - 1]['game-key'] == metadata['game_key']:
+		stats_row = stats[ix - 1]
+		if stats_row['game_key'] == metadata['game_key']:
 			return -1
-		comparison = compare(stats_list[ix - 1], metadata)
+		comparison = compare(stats_row, metadata)
 		if comparison < 0:
 			break
 		ix -= 1
@@ -96,7 +127,7 @@ def find_index_sorted(stats_list, metadata, sort_def):
 
 
 def process_metadata(metadata, stats_def, stats_cache, affected_stats_keys, s3_client):
-	stats_key = stats_def['path'].format(metadata)
+	stats_key = stats_def['path'].format(**metadata)
 	if stats_key in stats_cache:
 		stats = stats_cache[stats_key]
 	else:
