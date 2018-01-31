@@ -1,0 +1,14 @@
+{
+	"path": "stats/data/fastest_by_month/{year}/{month}.csv",
+	"sort": [
+		{
+			"field": "speed",
+			"direction": "desc"
+		},
+		{
+			"field": "ingest_time",
+			"direction": "desc"
+		}
+	],
+	"limit": 5
+}
