@@ -88,8 +88,6 @@ def read_stats(stats_key, s3_client):
 		else:
 			stats_row = {}
 			for header, val in zip(stats_header, stats_vals):
-				if val and header in METADATA_TYPES:
-					val = METADATA_TYPES[header](val)
 				stats_row[header] = val
 			if stats_row:
 				stats.append(stats_row)
@@ -102,12 +100,17 @@ def find_index_sorted(stats, metadata, sort_def):
 		comp_list2 = []
 		for sort_spec in sort_def:
 			field = sort_spec['field']
-			field1 = struct1[field]
-			field2 = struct2[field]
+			val1 = struct1[field]
+			val2 = struct2[field]
+			if field in METADATA_TYPES:
+				if val1:
+					val1 = METADATA_TYPES[field](val1)
+				if val2:
+					val2 = METADATA_TYPES[field](val2)
 			if sort_spec['direction'] == 'desc':
-				field1, field2 = field2, field1
-			comp_list1.append(field1)
-			comp_list2.append(field2)
+				val1, val2 = val2, val1
+			comp_list1.append(val1)
+			comp_list2.append(val2)
 		if comp_list1 < comp_list2:
 			return -1
 		elif comp_list1 > comp_list2:
