@@ -1,5 +1,5 @@
 {
-	"path": "stats/data/longest/player_count/{player_count}/year/{year}.csv",
+	"path": "stats/data/longest/player_count/{player_count}/year/{year}.json",
 	"sort": [
 		{
 			"field": "winning_turn_count",

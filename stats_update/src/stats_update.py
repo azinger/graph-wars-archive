@@ -1,23 +1,7 @@
-import csv
 import io
 import json
 
 import boto3
-
-
-METADATA_TYPES = {
-	'year': int,
-	'month': int,
-	'day': int,
-	'width': int,
-	'height': int,
-	'moves_per_turn': int,
-	'area': int,
-	'speed': float,
-	'squareness': float,
-	'player_count': int,
-	'winning_turn_count': int
-}
 
 
 def lambda_handler(event, context):
@@ -57,10 +41,7 @@ def write_stats(stats_key, stats, s3_client):
 		stats_table.append(stats_header)
 		for metadata in stats:
 			stats_table.append([metadata[col] for col in stats_header])
-	stats_buffer = io.StringIO()
-	writer = csv.writer(stats_buffer)
-	writer.writerows(stats_table)
-	stats_content = stats_buffer.getvalue()
+	stats_content = json.dumps(stats_table)
 	s3_client.put_object(
 		Bucket='graph-wars-archive',
 		Key=stats_key,
@@ -82,7 +63,8 @@ def read_stats(stats_key, s3_client):
 		return []
 	stats = []
 	stats_header = None
-	for stats_vals in csv.reader(stats_content.split('\n')):
+	stats_table = json.loads(stats_content)
+	for stats_vals in stats_table:
 		if stats_header is None:
 			stats_header = stats_vals
 		else:
@@ -102,11 +84,6 @@ def find_index_sorted(stats, metadata, sort_def):
 			field = sort_spec['field']
 			val1 = struct1[field]
 			val2 = struct2[field]
-			if field in METADATA_TYPES:
-				if val1:
-					val1 = METADATA_TYPES[field](val1)
-				if val2:
-					val2 = METADATA_TYPES[field](val2)
 			if sort_spec['direction'] == 'desc':
 				val1, val2 = val2, val1
 			comp_list1.append(val1)
