@@ -84,11 +84,6 @@ def find_index_sorted(stats, metadata, sort_def):
 			field = sort_spec['field']
 			val1 = struct1[field]
 			val2 = struct2[field]
-			# if field in METADATA_TYPES:
-			# 	if val1:
-			# 		val1 = METADATA_TYPES[field](val1)
-			# 	if val2:
-			# 		val2 = METADATA_TYPES[field](val2)
 			if sort_spec['direction'] == 'desc':
 				val1, val2 = val2, val1
 			comp_list1.append(val1)
