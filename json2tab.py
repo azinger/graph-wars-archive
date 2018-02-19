@@ -6,7 +6,7 @@ import sys
 
 def main(args=None):
 	jsonin = sys.stdin
-	csvout = sys.stdout
+	tabout = sys.stdout
 
 	content = jsonin.read()
 	data = json.loads(content)
@@ -29,10 +29,10 @@ def main(args=None):
 	header_format = ' | '.join(header_formats)
 	row_format = ' | '.join(row_formats)
 
-	print(header_format.format(*data[0]))
-	print('-+-'.join(['-' * col_length for col_length in col_lengths]))
+	print(header_format.format(*data[0]), file=tabout)
+	print('-+-'.join(['-' * col_length for col_length in col_lengths]), file=tabout)
 	for row in data[1:]:
-		print(row_format.format(*row))
+		print(row_format.format(*row), file=tabout)
 
 
 
