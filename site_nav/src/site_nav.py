@@ -54,6 +54,7 @@ def lambda_handler(event, context):
 
 
 def process_stat_path(bucket_name, s3_key, s3_client):
+	print('Processing {}'.format(s3_key))
 	path_elems = s3_key.split('/')
 	src_path_start_ix = STATS_ROOT_PATH_LEN
 	src_path_end_ix = len(path_elems)
