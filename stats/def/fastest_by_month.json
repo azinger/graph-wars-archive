@@ -1,5 +1,5 @@
 {
-	"path": "stats/data/fastest_by_month/{year}/{month}.json",
+	"path": "stats/data/{year}/{month}/fastest.json",
 	"sort": [
 		{
 			"field": "speed",
