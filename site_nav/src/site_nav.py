@@ -85,8 +85,16 @@ def process_stat_path(bucket_name, s3_key, s3_client):
 	for path_ix in range(src_path_start_ix, src_path_end_ix):
 		src_path_elems = path_elems[:path_ix]
 		nav_dir = stats_dir.get(src_path_elems)
-		children = nav_dir.get_child_elems()
+		children = map(html_extension, nav_dir.get_child_elems())
 		write_index(src_path_elems, children, s3_client)
+
+
+def html_extension(filename):
+	ext_ix = filename.rfind('.')
+	if ext_ix > 0:
+		return '{}.html'.format(filename[0:ext_ix])
+	else:
+		return filename
 
 
 def write_index(src_path_elems, children, s3_client):
