@@ -47,6 +47,10 @@ def lambda_handler(event, context):
 	print(event)
 
 	s3_client = boto3.client('s3')
+	lambda_client = boto3.client('lambda')
+
+	invoke_site_game_listing(event, lambda_client)
+
 	for record in event['Records']:
 		bucket_name = record['s3']['bucket']['name']
 		s3_key = record['s3']['object']['key']
@@ -92,7 +96,7 @@ def process_stat_path(bucket_name, s3_key, s3_client):
 def html_extension(filename):
 	ext_ix = filename.rfind('.')
 	if ext_ix > 0:
-		return '{}.html'.format(filename[0:ext_ix])
+		return '{}.html'.format(filename[:ext_ix])
 	else:
 		return filename
 
@@ -122,4 +126,12 @@ def write_index(src_path_elems, children, s3_client):
 		Key=page_key,
 		ContentType='text/html; charset=utf-8',
 		Body=page_content.encode('UTF-8')
+	)
+
+
+def invoke_site_game_listing(event, lambda_client):
+	lambda_client.invoke(
+		FunctionName='site_game_listing',
+		InvocationType='Event',
+		Payload=json.dumps(event).encode('UTF-8')
 	)
