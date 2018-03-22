@@ -1,0 +1,10 @@
+{
+	"path": "stats/data/{year}/{month}/{day}.json",
+	"sort": [
+		{
+			"field": "ingest_time",
+			"direction": "desc"
+		}
+	],
+	"limit": 100
+}
