@@ -1,21 +1,41 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Field from './Field';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+	constructor(props)
+	{
+		super(props);
+		this.calcQueryParams();
+	}
+
+	calcQueryParams()
+	{
+		this.queryParams = {};
+		const query = window.location.search;
+		const keyValPat = /[\?\&]([^=]+)=([^\&]+)/g;
+		var match;
+		while(match = keyValPat.exec(query))
+		{
+			const key = match[1];
+			const value = match[2];
+			if(!(key in this.queryParams))
+			{
+				this.queryParams[key] = [];
+			}
+			this.queryParams[key].push(value);
+		}
+	}
+
+	render() 
+	{
+		return (
+			<div className="App">
+			<Field gameUrl={this.queryParams.gameUrl[0]} />
+			</div>
+		);
+	}
 }
 
 export default App;
