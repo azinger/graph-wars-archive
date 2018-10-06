@@ -60,10 +60,9 @@ class Field extends React.Component
 			positionIx: this.state.positionIx + positionDelta,
 		};
 		const dIx = positionDelta > 0 ? 1 : -1;
-		for(var ix = this.state.positionIx; ix != newState.positionIx; ix += dIx)
+		for(var ix = this.state.positionIx; ix !== newState.positionIx; ix += dIx)
 		{
-			const event = newState.data.events[ix];
-			const nextEvent = newState.data.events[ix + dIx];
+			const event = dIx > 0 ? newState.data.events[ix] : newState.data.events[ix + dIx];
 			switch(event.stage)
 			{
 				case 'Home':
@@ -108,7 +107,7 @@ class Field extends React.Component
 				case 'Outpost':
 				case 'Block':
 				if(dIx < 0)
-					newState.occupants[event.y][event.x] = nextEvent.prevOccupant;
+					newState.occupants[event.y][event.x] = event.nextOccupant;
 				else
 				{
 					newState.data.events[ix]['prevOccupant'] = this.state.occupants[event.y][event.x];
@@ -119,7 +118,7 @@ class Field extends React.Component
 				}
 				break;
 			}
-		}
+			}
 		this.setState(newState);
 	}
 
@@ -129,6 +128,8 @@ class Field extends React.Component
 	}
 
 	occupantRenderer(occupant) {
+		if(!occupant)
+			return <td>?</td>;
 		return <td
 			className={`${occupant.stage} ${occupant.player}-${occupant.stage}`}
 		>
@@ -142,7 +143,9 @@ class Field extends React.Component
 	}
 
 	rowRenderer(rowElem) {
-		return (<tr>{ rowElem.map(this.occupantRenderer) }</tr>);
+		return <tr>
+			{ rowElem.map(this.occupantRenderer) }
+		</tr>;
 	}
 
 	render()
