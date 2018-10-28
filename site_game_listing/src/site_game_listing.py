@@ -6,6 +6,16 @@ import boto3
 STATS_ROOT_PATH_ELEMS = ['stats', 'data']
 STATS_ROOT_PATH_LEN = len(STATS_ROOT_PATH_ELEMS)
 
+STATS_CUSTOM_FORMATTERS = {
+	'game_key': lambda stats_row, header_indexes: '<a href="{playback_page_url}?gameUrl=/data/raw/{year}/{month}/{day}/{game_key}.json">{game_key}</a>'.format(
+		playback_page_url='/playback/index.html',
+		year=stats_row[header_indexes['year']],
+		month=stats_row[header_indexes['month']],
+		day=stats_row[header_indexes['day']],
+		game_key=stats_row[header_indexes['game_key']]
+	),
+}
+
 
 def lambda_handler(event, context):
 	print(event)
@@ -40,13 +50,15 @@ def read_stats(bucket_name, stats_key, s3_client):
 		stats_content = stats_bytes.decode('UTF-8')
 	except Exception as ex:
 		print(ex)
-		print('Will return empty list for stats.')
+		print('Will return empty list for stats key {stats_key}'.format(stats_key=stats_key))
 		return []
 	stats_table = json.loads(stats_content)
 	return stats_table
 
 
 def write_stats_html(stats, page_key, s3_client):
+	header_indexes = {}
+	row_ix = -1
 	page_lines = [
 		'<html>',
 		'<head><title>Graph Wars Archive Listing</title></head>',
@@ -54,14 +66,26 @@ def write_stats_html(stats, page_key, s3_client):
 		'<table>'
 	]
 	for stats_row in stats:
+		row_ix += 1
+
 		page_lines += ['<tr>']
+		col_ix = -1
 		for stats_val in stats_row:
+			col_ix += 1
+			if row_ix == 0:
+				header_indexes[stats_val] = col_ix
+			header = stats[0][col_ix]
+			if row_ix == 0 or header not in STATS_CUSTOM_FORMATTERS:
+				display_val = stats_val
+			else:
+				display_val = STATS_CUSTOM_FORMATTERS[header](stats_row, header_indexes)
 			page_lines += [
 				'<td>',
-				str(stats_val),
+				str(display_val),
 				'</td>'
 			]
 		page_lines += ['</tr>']
+
 	page_lines += [
 		'</table>',
 		'</body>',
