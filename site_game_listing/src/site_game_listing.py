@@ -42,20 +42,8 @@ def read_stats(bucket_name, stats_key, s3_client):
 		print(ex)
 		print('Will return empty list for stats.')
 		return []
-	# stats = []
-	# stats_header = None
 	stats_table = json.loads(stats_content)
 	return stats_table
-	# for stats_vals in stats_table:
-	# 	if stats_header is None:
-	# 		stats_header = stats_vals
-	# 	else:
-	# 		stats_row = {}
-	# 		for header, val in zip(stats_header, stats_vals):
-	# 			stats_row[header] = val
-	# 		if stats_row:
-	# 			stats.append(stats_row)
-	# return stats
 
 
 def write_stats_html(stats, page_key, s3_client):
