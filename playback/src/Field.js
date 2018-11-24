@@ -129,16 +129,16 @@ class Field extends React.Component
 
 	occupantRenderer(occupant) {
 		if(!occupant)
-			return <td>?</td>;
-		return <td
-			className={`${occupant.stage} ${occupant.player}-${occupant.stage}`}
-		>
+			return <td><div className="gameCell"></div></td>;
+		return <td>
+			<div className={`gameCell ${occupant.stage} ${occupant.player}-${occupant.stage}`}>
 			{ {
 				Home: '\u2665',
 				Outpost: '*',
 				Block: '',
 				null: '',
 			}[occupant.stage] }
+			</div>
 		</td>;
 	}
 
