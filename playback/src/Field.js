@@ -107,7 +107,7 @@ class Field extends React.Component
 				case 'Outpost':
 				case 'Block':
 				if(dIx < 0)
-					newState.occupants[event.y][event.x] = event.nextOccupant;
+					newState.occupants[event.y][event.x] = event.prevOccupant;
 				else
 				{
 					newState.data.events[ix]['prevOccupant'] = this.state.occupants[event.y][event.x];
