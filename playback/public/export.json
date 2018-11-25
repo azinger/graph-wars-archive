@@ -1,0 +1,5988 @@
+
+		{
+		"width": 40,
+		"height": 30,
+		"movesPerTurn": 5,
+		"events": [
+		
+		{
+		
+		"player": "a",
+		"stage": "FlyOnTheWall"
+		}
+	,
+		{
+		
+			"quadrant": "TopLeft",
+		
+		"player": "a",
+		"stage": "Home"
+		}
+	,
+		{
+		
+			"quadrant": "BottomLeft",
+		
+		"player": "b",
+		"stage": "Home"
+		}
+	,
+		{
+		
+			"quadrant": "BottomRight",
+		
+		"player": "c",
+		"stage": "Home"
+		}
+	,
+		{
+		
+			"quadrant": "TopRight",
+		
+		"player": "d",
+		"stage": "Home"
+		}
+	,
+		{
+		
+			"x": 1,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 2,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 1,
+			"y": 28,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 2,
+			"y": 27,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 28,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 1,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 2,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 1,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 0,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 2,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 28,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 1,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 1,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 39,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 39,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 39,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 39,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 0,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 28,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 28,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 19,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 29,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 2,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 1,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 0,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 0,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 0,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 28,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 27,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 28,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 7,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 28,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 27,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 26,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 8,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 25,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 26,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 28,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 29,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 25,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 4,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 24,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 24,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 23,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 1,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 0,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 0,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 1,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 23,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 3,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 1,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 0,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 2,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 0,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 1,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 0,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 22,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 22,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 20,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 5,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 9,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 8,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 6,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 10,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 2,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 9,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 6,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 21,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 20,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 39,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 39,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 18,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 14,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 13,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 15,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 14,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 38,
+			"y": 13,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 18,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 21,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 13,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 15,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 14,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 17,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 14,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 13,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 15,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 14,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 13,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 18,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 14,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 13,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 12,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 15,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 14,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 19,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 34,
+			"y": 20,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 18,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 13,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 11,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 10,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 14,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 37,
+			"y": 21,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 13,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 12,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 10,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 12,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 19,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 18,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 11,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 12,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 13,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 12,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 20,
+			"y": 14,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 18,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 16,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 10,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 13,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 14,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 11,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 10,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 9,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 8,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 7,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 6,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 11,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 15,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 14,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 9,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 11,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 5,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 15,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 10,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 9,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 8,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 13,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 11,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 5,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 31,
+			"y": 13,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 1,
+			"y": 11,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 2,
+			"y": 13,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 15,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 17,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 7,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 6,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 5,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 36,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 35,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 30,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 4,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 28,
+			"y": 3,
+		
+		"player": "c",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 15,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 16,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 17,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 18,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 29,
+			"y": 19,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 3,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 4,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 5,
+			"y": 7,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 16,
+		
+		"player": "a",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 17,
+		
+		"player": "a",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 8,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 7,
+			"y": 16,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 4,
+			"y": 8,
+		
+		"player": "b",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 3,
+			"y": 7,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 6,
+			"y": 4,
+		
+		"player": "b",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 27,
+			"y": 16,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 26,
+			"y": 17,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 18,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 24,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 19,
+		
+		"player": "c",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 25,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 23,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 22,
+			"y": 12,
+		
+		"player": "d",
+		"stage": "Block"
+		}
+	,
+		{
+		
+			"x": 33,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	,
+		{
+		
+			"x": 32,
+			"y": 14,
+		
+		"player": "d",
+		"stage": "Outpost"
+		}
+	
+		]
+		}
+	

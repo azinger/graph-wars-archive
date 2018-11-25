@@ -134,7 +134,7 @@ def write_games_to_s3(game_seq, s3_client):
 			game_key=metadata['game_key']
 		)
 		s3_client.put_object(
-			Bucket='graph-wars-archive',
+			Bucket='graph-wars-archive-www',
 			Key=raw_s3_key,
 			Body=json.dumps(game).encode('UTF-8')
 		)

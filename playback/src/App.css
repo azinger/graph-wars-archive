@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Game grid */
+
+.cellGrid
+{
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cellGrid tr 
+{
+  height: 12px;
+  padding: 0px;
+}
+
+.cellGrid td
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 12px;
+  height: 12px;
+  padding: 0px;
+}
+
+.gameCell
+{
+  width: 12px;
+  height: 12px;
+  font-family: Times, serif;
+}
+
+.Home
+{
+  position: relative;
+  left: 1px;
+  top: -4px;
+}
+
+.Outpost
+{
+  position: relative;
+  left: +2px;
+  top: -2px;
+}
+
+.ratingDisplay
+{
+  font-size: smaller;
+  vertical-align: super;
+}
+
+.a-Home,
+.a-Outpost
+{
+  color: blue;
+}
+
+.a-Block
+{
+  background-color: blue;
+}
+
+.b-Home,
+.b-Outpost
+{
+  color: red;
+}
+
+.b-Block
+{
+  background-color: red;
+}
+
+.c-Home,
+.c-Outpost
+{
+  color: green;
+}
+
+.c-Block
+{
+  background-color: green;
+}
+
+.d-Home,
+.d-Outpost
+{
+  color: magenta;
+}
+
+.d-Block
+{
+  background-color: magenta;
+}
