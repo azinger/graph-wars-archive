@@ -173,9 +173,6 @@ class Field extends React.Component
 	render()
 	{
 		return <div>
-			{this.state.data.width}x{this.state.data.height}<br />
-			position: {this.state.positionIx}<br />
-			last move: {this.getMoveDetails(this.state.data.events[this.state.positionIx])}<br />
 			<div>
 				<button onClick={event => this.advanceTo(0)}>|&lt;&lt;</button>
 				<button onClick={event => this.advance(-1)}>&lt;</button>
@@ -186,7 +183,7 @@ class Field extends React.Component
 			<table className="cellGrid">
 				{ this.state.occupants.map(this.rowRenderer) }
 			</table>
-			</div>;
+		</div>;
 	}
 }
 
