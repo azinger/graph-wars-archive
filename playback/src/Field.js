@@ -39,7 +39,29 @@ class Field extends React.Component
 					}),
 				)
 			),
+			playerCssMapping: {},
 		};
+		const playerAliases = 'abcd';
+		var playerAliasIx = -1;
+		var stop = false;
+		for(const event of data.events)
+		{
+			switch(event.stage)
+			{
+				case 'Home':
+				newState.playerCssMapping[event.player] = playerAliases[++playerAliasIx];
+				break;
+
+				case 'Outpost':
+				case 'Block':
+				stop = true;
+				break;
+			}
+			if(stop)
+			{
+				break;
+			}
+		}
 		return newState;
 	}
 
@@ -131,7 +153,7 @@ class Field extends React.Component
 		if(!occupant)
 			return <td><div className="gameCell"></div></td>;
 		return <td>
-			<div className={`gameCell ${occupant.stage} ${occupant.player}-${occupant.stage}`}>
+			<div className={`gameCell ${occupant.stage} ${this.state.playerCssMapping[occupant.player]}-${occupant.stage}`}>
 			{ {
 				Home: '\u2665',
 				Outpost: '*',
@@ -151,20 +173,17 @@ class Field extends React.Component
 	render()
 	{
 		return <div>
-			{this.state.data.width}x{this.state.data.height}<br />
-			position: {this.state.positionIx}<br />
-			last move: {this.getMoveDetails(this.state.data.events[this.state.positionIx])}<br />
 			<div>
 				<button onClick={event => this.advanceTo(0)}>|&lt;&lt;</button>
 				<button onClick={event => this.advance(-1)}>&lt;</button>
 				<button onClick={event => this.advance(1)}>&gt;</button>
-				<button onClick={event => this.advanceTo(this.state.data.events.length - 1)}>&gt;&gt;|</button>
+				<button onClick={event => this.advanceTo(this.state.data.events.length)}>&gt;&gt;|</button>
 				<input type="range" min="0" max={this.state.data.events.length} value={this.state.positionIx} onInput={event => this.advanceTo(event.target.value)} />
 			</div>
 			<table className="cellGrid">
 				{ this.state.occupants.map(this.rowRenderer) }
 			</table>
-			</div>;
+		</div>;
 	}
 }
 
