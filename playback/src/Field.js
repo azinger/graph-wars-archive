@@ -39,7 +39,29 @@ class Field extends React.Component
 					}),
 				)
 			),
+			playerCssMapping: {},
 		};
+		const playerAliases = 'abcd';
+		var playerAliasIx = -1;
+		var stop = false;
+		for(const event of data.events)
+		{
+			switch(event.stage)
+			{
+				case 'Home':
+				newState.playerCssMapping[event.player] = playerAliases[++playerAliasIx];
+				break;
+
+				case 'Outpost':
+				case 'Block':
+				stop = true;
+				break;
+			}
+			if(stop)
+			{
+				break;
+			}
+		}
 		return newState;
 	}
 
@@ -131,7 +153,7 @@ class Field extends React.Component
 		if(!occupant)
 			return <td><div className="gameCell"></div></td>;
 		return <td>
-			<div className={`gameCell ${occupant.stage} ${occupant.player}-${occupant.stage}`}>
+			<div className={`gameCell ${occupant.stage} ${this.state.playerCssMapping[occupant.player]}-${occupant.stage}`}>
 			{ {
 				Home: '\u2665',
 				Outpost: '*',
