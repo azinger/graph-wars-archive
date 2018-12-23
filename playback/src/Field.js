@@ -177,7 +177,7 @@ class Field extends React.Component
 				<button onClick={event => this.advanceTo(0)}>|&lt;&lt;</button>
 				<button onClick={event => this.advance(-1)}>&lt;</button>
 				<button onClick={event => this.advance(1)}>&gt;</button>
-				<button onClick={event => this.advanceTo(this.state.data.events.length - 1)}>&gt;&gt;|</button>
+				<button onClick={event => this.advanceTo(this.state.data.events.length)}>&gt;&gt;|</button>
 				<input type="range" min="0" max={this.state.data.events.length} value={this.state.positionIx} onInput={event => this.advanceTo(event.target.value)} />
 			</div>
 			<table className="cellGrid">
