@@ -1,8 +1,8 @@
 {
-	"path": "stats/data/{year}/{month}/fastest.json",
+	"path": "stats/data/Year_{year}/Most_intense.json",
 	"sort": [
 		{
-			"field": "speed",
+			"field": "saturation",
 			"direction": "desc"
 		},
 		{
@@ -10,5 +10,5 @@
 			"direction": "desc"
 		}
 	],
-	"limit": 5
+	"limit": 100
 }
