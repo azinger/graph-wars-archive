@@ -111,7 +111,10 @@ def write_index(src_path_elems, children, s3_client):
 	]
 	for child_path_elem in children:
 		page_lines += [
-			'<li><a href="{href}">{href}</a></li>'.format(href=child_path_elem)
+			'<li><a href="{href}">{href_text}</a></li>'.format(
+				href=child_path_elem,
+				href_text=child_path_elem.replace('_', ' ')
+			)
 		]
 	page_lines += [
 		'</ul>',

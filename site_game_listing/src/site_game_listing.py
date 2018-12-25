@@ -76,7 +76,7 @@ def write_stats_html(stats, page_key, s3_client):
 				header_indexes[stats_val] = col_ix
 			header = stats[0][col_ix]
 			if row_ix == 0 or header not in STATS_CUSTOM_FORMATTERS:
-				display_val = stats_val
+				display_val = str(stats_val).replace('_', ' ')
 			else:
 				display_val = STATS_CUSTOM_FORMATTERS[header](stats_row, header_indexes)
 			page_lines += [

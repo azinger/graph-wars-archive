@@ -1,5 +1,5 @@
 {
-	"path": "stats/data/{year}/{player_count}_player/longest.json",
+	"path": "stats/data/Year_{year}/Longest_{player_arrangement}.json",
 	"sort": [
 		{
 			"field": "winning_turn_count",
@@ -10,5 +10,5 @@
 			"direction": "desc"
 		}
 	],
-	"limit": 5
+	"limit": 100
 }

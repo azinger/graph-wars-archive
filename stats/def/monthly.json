@@ -1,0 +1,22 @@
+{
+	"path": "stats/data/Year_{year}/Month_of_{year}-{month}.json",
+	"sort": [
+		{
+			"field": "year",
+			"direction": "asc"
+		},
+		{
+			"field": "month",
+			"direction": "asc"
+		},
+		{
+			"field": "day",
+			"direction": "asc"
+		},
+		{
+			"field": "ingest_time",
+			"direction": "desc"
+		}
+	],
+	"limit": 500
+}

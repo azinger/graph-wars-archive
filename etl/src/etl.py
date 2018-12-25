@@ -76,52 +76,10 @@ def read_games_from_gcs(prefix_seq, gcs_client):
 			game_js_bytes = blob.download_as_string()
 			game_js = str(game_js_bytes, 'UTF-8')
 			game = json.loads(game_js)
-			metadata = {
-				'year': year,
-				'month': month,
-				'day': day,
-				'game_key': game_key,
-				'ingest_time': datetime.utcnow().isoformat(),
-				'width': game['width'],
-				'height': game['height'],
-				'moves_per_turn': game['movesPerTurn'],
-				'winner': game['events'][-1]['player'],
-				'area': game['width'] * game['height'],
-				'speed': game['movesPerTurn'] / max(game['width'], game['height']),
-				'squareness': min(game['width'], game['height']) / max(game['width'], game['height']),
-				'home0': None,
-				'home1': None,
-				'home2': None,
-				'home3': None,
-				'player_count': 0,
-				'winning_turn_count': 0
-			}
-			prev_event = None
-			for event in game['events']:
-				stage = event['stage']
-				if stage == 'Home':
-					metadata['home{}'.format(metadata['player_count'])] = event['quadrant']
-					metadata['player_count'] += 1
-				elif stage == 'Outpost':
-					if event['player'] != prev_event['player']:
-						metadata['winning_turn_count'] += 1
-				prev_event = event
-			if metadata['player_count'] == 2:
-				quadrant_parsed0 = quadrant_regex.match(metadata['home0'])
-				quadrant_parsed1 = quadrant_regex.match(metadata['home1'])
-				if not quadrant_parsed0 or not quadrant_parsed1:
-					print('Could not determine player arrangement for {}'.format(metadata['homes']))
-					continue
-				vertical0, horizontal0 = quadrant_parsed0.groups()
-				vertical1, horizontal1 = quadrant_parsed1.groups()
-				if vertical0 == vertical1 or horizontal0 == horizontal1:
-					metadata['player_arrangement'] = 'same_side'
-				else:
-					metadata['player_arrangement'] = 'diagonal'
-			else:
-				metadata['player_arrangement'] = 'group'
+			metadata = calc_game_metadata(game, year, month, day, game_key)
 			print('Game metadata: {}'.format(metadata))
-			yield game, metadata
+			if game and metadata:
+				yield game, metadata
 
 
 def write_games_to_s3(game_seq, s3_client):
@@ -162,3 +120,52 @@ def write_games_to_s3(game_seq, s3_client):
 		),
 		Body=json.dumps(trigger).encode('UTF-8')
 	)
+
+
+def calc_game_metadata(game, year, month, day, game_key):
+	metadata = {
+		'year': year,
+		'month': month,
+		'day': day,
+		'game_key': game_key,
+		'ingest_time': datetime.utcnow().isoformat(),
+		'width': game['width'],
+		'height': game['height'],
+		'moves_per_turn': game['movesPerTurn'],
+		'winner': game['events'][-1]['player'],
+		'area': game['width'] * game['height'],
+		'speed': game['movesPerTurn'] / max(game['width'], game['height']),
+		'squareness': min(game['width'], game['height']) / max(game['width'], game['height']),
+		'saturation': len(game['events']) / (game['width'] * game['height']),
+		'home0': None,
+		'home1': None,
+		'home2': None,
+		'home3': None,
+		'player_count': 0,
+		'winning_turn_count': 0
+	}
+	prev_event = None
+	for event in game['events']:
+		stage = event['stage']
+		player = event['player']
+		if stage == 'Home':
+			metadata['home{}'.format(metadata['player_count'])] = event['quadrant']
+			metadata['player_count'] += 1
+		if (stage == 'Outpost' or stage == 'Block') and player != prev_event['player'] and player == metadata['winner']:
+			metadata['winning_turn_count'] += 1
+		prev_event = event
+	if metadata['player_count'] == 2:
+		quadrant_parsed0 = quadrant_regex.match(metadata['home0'])
+		quadrant_parsed1 = quadrant_regex.match(metadata['home1'])
+		if not quadrant_parsed0 or not quadrant_parsed1:
+			print('Could not determine player arrangement for {}'.format(metadata['homes']))
+			return None
+		vertical0, horizontal0 = quadrant_parsed0.groups()
+		vertical1, horizontal1 = quadrant_parsed1.groups()
+		if vertical0 == vertical1 or horizontal0 == horizontal1:
+			metadata['player_arrangement'] = 'same_side'
+		else:
+			metadata['player_arrangement'] = 'diagonal'
+	else:
+		metadata['player_arrangement'] = 'group'
+	return metadata
