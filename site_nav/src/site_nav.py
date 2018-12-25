@@ -101,6 +101,17 @@ def html_extension(filename):
 		return filename
 
 
+def filename_to_link_text(filename):
+	ext_ix = filename.rfind('.')
+	if ext_ix > 0:
+		link_text = filename[:ext_ix]
+	elif ext_ix == 0:
+		link_text = filename[1:]
+	else:
+		link_text = filename
+	return link_text.replace('_', ' ')
+
+
 def write_index(src_path_elems, children, s3_client):
 	print('Writing index for {}: {}'.format(src_path_elems, children))
 	page_lines = [
@@ -113,7 +124,7 @@ def write_index(src_path_elems, children, s3_client):
 		page_lines += [
 			'<li><a href="{href}">{href_text}</a></li>'.format(
 				href=child_path_elem,
-				href_text=child_path_elem.replace('_', ' ')
+				href_text=filename_to_link_text(child_path_elem)
 			)
 		]
 	page_lines += [
