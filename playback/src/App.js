@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Field from './Field';
 
@@ -14,9 +13,9 @@ class App extends Component {
 	{
 		this.queryParams = {};
 		const query = window.location.search;
-		const keyValPat = /[\?\&]([^=]+)=([^\&]+)/g;
+		const keyValPat = /[?&]([^=]+)=([^&]+)/g;
 		var match;
-		while(match = keyValPat.exec(query))
+		while(!!(match = keyValPat.exec(query)))
 		{
 			const key = match[1];
 			const value = match[2];

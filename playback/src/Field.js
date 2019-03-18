@@ -56,6 +56,9 @@ class Field extends React.Component
 				case 'Block':
 				stop = true;
 				break;
+
+				default:
+				continue;
 			}
 			if(stop)
 			{
@@ -89,7 +92,7 @@ class Field extends React.Component
 			{
 				case 'Home':
 				var x, y;
-				const [fullMatch, verticalAlignment, horizontalAlignment] = /(Top|Bottom)(Left|Right)/.exec(event.quadrant);
+				const [verticalAlignment, horizontalAlignment] = /(Top|Bottom)(Left|Right)/.exec(event.quadrant).slice(-2);
 				switch(verticalAlignment)
 				{
 					case 'Top':
@@ -99,6 +102,9 @@ class Field extends React.Component
 					case 'Bottom':
 					y = this.state.data.height - 1;
 					break;
+
+					default:
+					continue;
 				}
 				switch(horizontalAlignment)
 				{
@@ -109,6 +115,9 @@ class Field extends React.Component
 					case 'Right':
 					x = this.state.data.width - 1;
 					break;
+
+					default:
+					continue;
 				}
 				if(dIx < 0)
 				{
@@ -139,8 +148,11 @@ class Field extends React.Component
 					};
 				}
 				break;
+
+				default:
+				continue;
 			}
-			}
+		}
 		this.setState(newState);
 	}
 
